@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.CSS">
+</head>
+
+<header>
+<title> Davi Alves Mugayar </title>
+</header>
+
+<body>
+    <div class ="container">
+        <h1 id="Sobre"> Sobre Mim </h1>
+        <form>
+
+            <div>
+                <a href="#Sobre"> Sobre mim </a>
+            </div>
+            <div>
+                <a href="#Projetos"> Projetos </a>
+            </div>
+        </form>
+        <div>
+            <a href="#Contato"> Contato </a>
+        </div>
+        <main>
+            <section>
+                <p> Eu sou o Davi, nasci em Goiânia - GO. Tenho 17 anos e entrei para o curso de Engenharia de Software na UFG.</p>
+                <img id="imagem" src="https://media.istockphoto.com/id/1129473522/pt/foto/colorful-panoramic-mountain-view-at-sunrise.jpg?s=612x612&w=0&k=20&c=K8vSoS4nLRuQQrwR7X02pf4KpU5tYesZBuN-Hmb0X_U=" alt="" width="400">
+            </section>
+            <section>
+                <h2 id="Projetos"> Projetos: </h2>
+                <h3> Robô </h3>
+                <a href="https://Robô.do.mal">Projeto Robô</a>
+                <p> Criação de um robô capaz de poder destruir a humanidade </p>
+                <h3> Cura do câncer</h3>
+                <a href="https://cura.câncer">Cura do câncer</a>
+                <p> Usar a tecnologia para a criação da cura definitiva do câncer </p>
+            </section>
+            <section>
+                <h2 id="Contato"> Contato </h2>
+                <form id="pessoa">
+                    <input type="text" placeholder="Digite seu nome aqui:">
+                    <input type="text" placeholder="Digite seu e-mail aqui:">
+                </form>
+                <form id="msg">
+                    <textarea name= "mensagem" placeholder="Qual sua dúvida?" id=""></textarea>
+                    <input type="button" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer> 
+            <p>&copy; Todos os direitos reservados</p> 
+            <p>Número: (62) 99999-9999</p>
+            <p>Instagram: davialvesmugayar</p>
+        </footer>
+    </div>
+</body>
+</html>
